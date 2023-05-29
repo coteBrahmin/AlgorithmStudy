@@ -1,5 +1,7 @@
 # Algorithm-Study
 
+## 시작날짜: 2023-05-29
+
 ## PR 규칙 및 Commit Message 규칙
 
 #### Commit Message
