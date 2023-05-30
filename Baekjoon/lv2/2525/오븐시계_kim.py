@@ -18,3 +18,6 @@ else:
     #시간이 24보다 클 때
     if newH>23: print(f"{newH-24} {newM}")
     else: print(f"{newH} {newM}")
+
+#best code 
+#P를 먼저 쪼개지 말고 더한 다음에 쪼개기 (joo's method)
