@@ -12,3 +12,15 @@ elif x!=y and x==z :
 elif x==y and y!=z:
     print(1000+x*100)
 else: print(1000+y*100)
+
+
+#조건문을 더 간략하게 효율적으로 쓸 수 있었다. 
+# A,B,C = map(int,input().split())
+# #세 수가 모두 같은 경우
+# if A == B and B == C: print(10000+1000*A)
+# #두 수가 같은 경우
+# elif A == B or A == C: print(1000+100*A)
+# elif B == C: print(1000+100*B)
+# #모두 다른 경우
+# else:
+#     print(max(A,B,C)*100)
