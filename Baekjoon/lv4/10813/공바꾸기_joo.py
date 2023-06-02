@@ -10,3 +10,6 @@ for i in range(1, M + 1):
     dict[x], dict[y] = dict[y], dict[x]
 
 print(*dict.values())
+
+#파이썬 for 문 사용법 알아두기 
+# for _ in range(M)
