@@ -9,3 +9,8 @@ for i in range(1,29):
     students.remove(check)
 
 print(*students)
+
+#리스트 요소 삭제 정리 :
+# 리스트.remove(값) => student.remove(check)
+# 리스트.pop(인덱스) => student.pop(student.index(check))
+# del 리스트[인덱스] => del student[student.index(ckeck)]

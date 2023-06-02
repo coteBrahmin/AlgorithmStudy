@@ -14,3 +14,5 @@ for i in range(1, 10):
 max = max(nums.keys())
 print(max)
 print(nums[max])
+
+#range(9) -> 9개: 0~8
