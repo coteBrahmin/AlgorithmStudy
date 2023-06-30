@@ -6,7 +6,7 @@ import sys
 N, B = sys.stdin.readline().split()
 sum = 0 #총합 = 0으로 초기화
 
-#
+#0부터(첫번째 값)부터 마지막 값까지 역순으로 반복
 for i in range(len(N)-1,-1,-1):
     if N[i].isdigit(): 
         #N의 i번째 문자가 숫자일 경우,
